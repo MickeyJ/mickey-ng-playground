@@ -1,27 +1,27 @@
-## Angular - Webpack - ES2015
-### with Express to deploy it
+## Angular-Playground
 
+__Install errthing__
 ```bash
   
 $ npm install
   
 ```
 
-Development Server [Port:8080](http://localhost:8080/)
+__Webpack Development Server__ [Port:8080](http://localhost:8080/)
 ```bash
   
 $ npm run dev
   
 ```
 
-Test Minified Angular [Port:8080](http://localhost:8080/)
+__Test Minified Angular__ [Port:8080](http://localhost:8080/)
 ```bash
   
 $ npm run stage
   
 ```
 
-Bundle and run with Express [Port:3000](http://localhost:3000/)
+__Bundle and run with Express__ [Port:3000](http://localhost:3000/)
 ```bash
   
 $ npm run build
