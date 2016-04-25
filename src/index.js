@@ -1,6 +1,8 @@
 import angular from 'angular'
 import 'angular-ui-router'
 
+import configHomePage from './pages/Home/'
+
 angular.module('app', ['ui.router'])
   .config(
     ['$stateProvider', '$urlRouterProvider', '$locationProvider',
@@ -9,18 +11,7 @@ angular.module('app', ['ui.router'])
         require('./bootstrap.css');
 
         $stateProvider
-          .state('/', {
-            url: '/',
-            template: require('./home.html'),
-            controller: 
-            ['$scope',
-              ($scope) =>{
-
-                $scope.title = 'Hello!'
-
-              }
-            ]
-          });
+          .state('/', configHomePage() );
 
         $urlRouterProvider.otherwise('/');
         $locationProvider.html5Mode(true);
