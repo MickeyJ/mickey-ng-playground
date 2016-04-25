@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
     "dev": "NODE_ENV=development node_modules/.bin/webpack-dev-server  --inline --hot",
     "stage": "NODE_ENV=staging node_modules/.bin/webpack-dev-server -d -p",
     "build": "NODE_ENV=production node_modules/.bin/webpack -p && node_modules/.bin/nodemon"
