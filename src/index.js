@@ -16,7 +16,7 @@ angular.module('app', ['ui.router'])
             ['$scope',
               ($scope) =>{
 
-                $scope.message = 'Welcome'
+                $scope.title = 'Hello!'
 
               }
             ]
